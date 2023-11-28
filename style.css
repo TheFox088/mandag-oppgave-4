@@ -1,0 +1,50 @@
+
+/*General elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.myDiv{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+input{
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;    
+}
+
+.btn{
+    font-size: 30px;
+}
+
+#displayArea{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ /*responsive opp til desktop*/
+ @media(min-height: 1025px){
+
+ }
+
+ /*responsive opp til tablet*/
+ @media(min-height: 770px){
+
+ }
+
+ /*responsive opp til mobil*/
+ @media(min-height: 340px){
+
+ }
